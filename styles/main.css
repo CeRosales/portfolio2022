@@ -1,0 +1,192 @@
+
+* {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+
+li {
+    list-style: none;
+    
+}
+
+li:hover {
+    background-color: white;
+    color: fuchsia;
+}
+
+.nav__ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width: 100%;
+    background-color: fuchsia;
+    position: fixed;
+    margin: 0;
+    z-index: 999;
+    
+    
+    
+}
+
+
+.nav__li {
+    font-size: 2.5em;
+    color: white;
+    padding: 0.5em;
+    margin-top: 0;
+    
+    
+    
+}
+
+
+.section1__img {
+    width: 100%;
+}
+
+.section1__h1 {
+    font-size: 5em;
+    padding-top: 1em;
+
+}
+
+.section1__h2 {
+    font-size: 5em;
+}
+
+.section2__01 {
+    font-size: 2em;
+    padding-top: 4em;
+
+}
+
+.section2__div--img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.section2__img {
+
+}
+
+.section2__tec {
+    font-size: 2em;
+    color: fuchsia;
+
+}
+
+.section2__h3 {
+    font-size: 3em;
+
+}
+
+.section2__p {
+    font-size: 1em;
+}
+
+body {
+    background-color: pink;
+}
+
+
+
+@media (min-width: 1000px) {
+    .nav__ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color:unset;
+        position: fixed;
+        z-index: 999;
+        margin: 0;
+    }
+
+    .nav__li {
+        font-size: 1.5em;
+        color: black;
+        padding: 0.5em;
+        margin-top: 0;
+    }
+
+    .section1__img {
+       width: 20em;
+       padding-left: 60em;
+       padding-top: 5em;
+       position: absolute;
+       z-index: 1;
+    }
+
+   
+    .section1__h1 {
+        font-size: 3em;
+        position: absolute;
+        z-index: 999;
+        padding-top: 3em;
+        padding-left: 8em;
+
+    }
+
+    .section1__h2 {
+        font-size: 3em;
+        position: absolute;
+        z-index: 999;
+        padding-top: 4em;
+        padding-left: 8em;
+
+    }
+
+    .section2 {
+        position: absolute;
+        z-index: 1;
+        padding-top: 20em;
+        padding-left: 20em;
+       
+
+    }
+
+    .section2__01 {
+        font-size: 2em;
+        padding-top: 4em;
+       
+    }
+
+    .section2__div--img {
+        justify-content: unset;
+
+    }
+
+    .section2__img {
+        width: 18em;
+    }
+
+    .section2__tec {
+        font-size: 1em;
+        color: fuchsia;
+
+    }
+
+    .section2__h3 {
+        font-size: 1.5em;
+
+    }
+
+    .section2__p {
+        font-size: 1em;
+    }
+
+    body {
+        background-color: white;
+    }
+
+    .background {
+        background-color: pink;
+        min-width: 80vw;
+        min-height: 80vh;
+        margin-top: 20em;
+        position: absolute;
+        z-index: 0;
+        margin-left: 10em;
+    }
+}
